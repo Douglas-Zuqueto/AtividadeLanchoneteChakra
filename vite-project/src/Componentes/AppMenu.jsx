@@ -16,7 +16,7 @@ export function AppMenu(){
             <h2 className={styles.titleSection}>Hambúrguers</h2>
             <Carousel className={styles.app} infinite={true} responsive={responsive}>
               {hambuguer}
-            </Carousel>  //carrossel
+            </Carousel>
             <h2 className={styles.titleSection}>Hot Dogs</h2>
             <Carousel className={styles.app} infinite={true} responsive={responsive}>
               {hotdog}

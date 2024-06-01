@@ -1,6 +1,5 @@
 export const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 1024 },
       items: 4,
     },
@@ -18,56 +17,6 @@ export const responsive = {
     }
   };
   
-export const menuPorcao = [
-    {
-      id: 1,
-      imageurl: "../src/assets/Img/aneis de cebola.jpg",
-      name: "Aneis de Cebola",
-      price: "R$18,99"
-  },
-  {
-      id: 2,
-      imageurl: "../src/assets/Img/batata com file de peixe.jpg",
-      name: "Batata com peixe",
-      price: "R$22,50"
-  },
-  {
-      id: 3,
-      imageurl: "../src/assets/Img/camarão.jpg",
-      name: "Camarão",
-      price: "R$30,00"
-  },
-  {
-      id: 4,
-      imageurl: "../src/assets/Img/costelinha.jpg",
-      name: "Costelinha",
-      price: "R$25,75"
-  },
-  {
-      id: 5,
-      imageurl: "../src/assets/Img/coxinhas de frango.jpg",
-      name: "Coxa de frango",
-      price: "R$15,99"
-  },
-  {
-      id: 6,
-      imageurl: "../src/assets/Img/porção de bata bacon mussarela.jfif",
-      name: "Batata com bacon",
-      price: "R$20,00"
-  },
-  {
-      id: 7,
-      imageurl: "../src/assets/Img/tiras de peixe com molho.jpg",
-      name: "File de peixe",
-      price: "R$28,50"
-  },
-  {
-      id: 8,
-      imageurl: "../src/assets/Img/torresmo.jpg",
-      name: "Torresminho",
-      price: "R$18,00"
-  }
-  ]
 export const menuHamburguer = [
     {
       id: 1,
@@ -166,5 +115,55 @@ export const menuHotD = [
       imageurl: "../src/assets/Img/The Most Insane Hot Dogs From America's Baseball Stadiums.jfif",
       name: "Cachorro Quente Insano",
       price: "R$18,99"
+  }
+  ]
+  export const menuPorcao = [
+    {
+      id: 1,
+      imageurl: "../src/assets/Img/aneis de cebola.jpg",
+      name: "Aneis de Cebola",
+      price: "R$18,99"
+  },
+  {
+      id: 2,
+      imageurl: "../src/assets/Img/batata com file de peixe.jpg",
+      name: "Mix",
+      price: "R$23,50"
+  },
+  {
+      id: 3,
+      imageurl: "../src/assets/Img/camarão.jpg",
+      name: "Camarão",
+      price: "R$30,00"
+  },
+  {
+      id: 4,
+      imageurl: "../src/assets/Img/costelinha.jpg",
+      name: "Costelinha",
+      price: "R$25,75"
+  },
+  {
+      id: 5,
+      imageurl: "../src/assets/Img/coxinhas de frango.jpg",
+      name: "Coxa de frango",
+      price: "R$15,99"
+  },
+  {
+      id: 6,
+      imageurl: "../src/assets/Img/porção de bata bacon mussarela.jfif",
+      name: "Batata com bacon",
+      price: "R$20,00"
+  },
+  {
+      id: 7,
+      imageurl: "../src/assets/Img/tiras de peixe com molho.jpg",
+      name: "File de peixe",
+      price: "R$28,50"
+  },
+  {
+      id: 8,
+      imageurl: "../src/assets/Img/torresmo.jpg",
+      name: "Torresminho",
+      price: "R$18,00"
   }
   ]

@@ -5,6 +5,7 @@ import { Sobre } from './Componentes/Sobre.jsx'
 import { AppMenu } from './Componentes/AppMenu.jsx'
 import { Contato } from './Componentes/Contato.jsx'
 import { Footer } from './Componentes/Footer.jsx'
+import { Conta } from './Componentes/Conta.jsx'
 
 import './Styles.global.css'
 
@@ -18,7 +19,7 @@ function App() {
 
     <Routes>
     <Route path='/' element={<Home start='Faça agora seu pedido pelo Menu!'
-    message='Horário de Funcionamento: Ter/Dom - 18:00 às 00:00!'
+    message='Baixe o nosso app!'
     />} />
     <Route path='/Sobre' element={<Sobre 
     title='Somos a Mix Burguers!'
@@ -26,6 +27,7 @@ function App() {
     />} />
     <Route path='/Menu' element={<AppMenu />} />
     <Route path='/Contato' element={<Contato />} />
+    <Route path='/Conta' element={<Conta />} />
     </Routes>
 
     {<Footer/>}

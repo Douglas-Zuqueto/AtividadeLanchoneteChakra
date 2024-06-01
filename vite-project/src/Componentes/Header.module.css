@@ -1,10 +1,22 @@
 .navContainer {
-    display: flex;
-    background-color: var(--btGrey);
+    padding: 0 20px;
+  }
+  
+  .navbarBrand {
+    color: 'black' !important;
     font-size: 2rem;
-    text-decoration: none;
-}
-
-.navbarBrand {
-    width:80px;
-}
+  }
+  
+  .navLink {
+    color: 'black' !important;
+    font-size: 2,5rem;
+    margin-right: 15px;
+  }
+  
+  .navLink:hover {
+    color: #ccc;
+  }
+  .bg-custom {
+    background-color: 'black'; 
+  }
+  

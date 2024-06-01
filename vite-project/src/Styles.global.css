@@ -8,6 +8,11 @@
     --btOrange: #dd8818;
     --btGrey: #727475;
     --chakra-colors-chakra-body-bg: #ffc3c3;
+    --btOrangeLight: #ffcc80; /* Laranja claro */
+    --btOrange: #ff9800; /* Laranja principal */
+    --btOrangeDark: #f57c00; /* Laranja escuro */
+    --btOrangeDarker: #e65100; /* Laranja mais escuro */
+    
 }
 
 body{

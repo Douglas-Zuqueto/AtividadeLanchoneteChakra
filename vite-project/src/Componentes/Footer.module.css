@@ -1,30 +1,31 @@
 .footer {
-    margin-top: 40px;
-    position: bottom;
+  background-color: #e65100;
+  color: 'black' !important;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.footer2{
-    padding: 20px 0;
-}
-
-.footer1, .infoFooter1 > Link{
-    background-color: var(--btOrange);
-    color: var(--btWhite);
-}
 
 .infoFooter1 {
-    font-size: 1.5rem;
-    border: 1px solid var(--btBlack);
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 }
 
-.infoFooter1 p {
-    margin: 20 10px 10px 10px;
+.infoFooter1 a {
+  color: #fff;
+  text-decoration: none; 
 }
 
-.copyright {
-    color: var(--btBlack);
+.infoFooter1 a:hover {
+  text-decoration: underline;
+}
+
+.footer section {
+  text-align: center;
+}
+
+.footer .copyright {
+  font-size: 14px;
 }
